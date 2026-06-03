@@ -14,7 +14,7 @@ int main(){
     }
     int gcd=a;
     int lcm=(num1*num2)/gcd;
-    cout<<"lcm"<<lcm<<" ";
+    cout<<"lcm:"<<lcm<<" ";
     return 0;
 
 }
