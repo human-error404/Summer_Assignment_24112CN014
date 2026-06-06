@@ -7,6 +7,6 @@ int main()
     cout<<"Give a number";
     cin>>n;
     bitset<16>binary(n);
-    cout<<"Binary"<<binary<<endl;
+    cout<<"Binary:"<<binary<<endl;
     return 0;
 }
