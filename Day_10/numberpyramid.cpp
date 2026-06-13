@@ -10,10 +10,16 @@ int main()
             cout<<" ";
             
         }
-        for(k=1;k<=(2*i)-1;k++)
+        for(j=1;j<=i;j++)
             {
-                cout<<2*i;
+                cout<<j;
             }
+    
+            for(j=i-1;j>=1;j--)
+            {
+                cout<<j;
+            }
+
         cout<<endl;
 
     }
