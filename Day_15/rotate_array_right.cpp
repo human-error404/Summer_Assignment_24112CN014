@@ -15,9 +15,10 @@ void rotatearr(vector<int>& vec, int d)
     int n=vec.size();
     d=d%n;
     
+    reverse(vec,0,n-1);
     reverse(vec,0,d-1);
     reverse(vec,d,n-1);
-    reverse(vec,0,n-1);
+    
 }
 int main()
 {
