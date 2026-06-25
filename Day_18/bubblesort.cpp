@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-//Suppose the arrays are sorted
-void merge(long long arr1[],int m)
+void bubble(long long arr1[],int m)
 {
    for(int i=m-1;i>=0;i--)
     {
@@ -32,6 +31,6 @@ int main()
     {
         cin>>arr1[i];
     }
-    merge(arr1,m);
+    bubble(arr1,m);
 
 }
