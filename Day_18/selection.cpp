@@ -10,11 +10,12 @@ void selection(long long arr1[],int m)
             if(arr1[j]<arr1[min])
             {
                 min=j;
-                swap(arr1[i],arr1[min]);
+                
                 
             }
+
         }
-        
+        swap(arr1[i],arr1[min]);
         
     }
     for(int i=0;i<m;i++)
