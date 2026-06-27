@@ -18,14 +18,14 @@ int main()
             cin>>A[i][j];
         }
     }
-    for(int i=0;i<n;i++)
+    for(int j=0;j<n;j++)
     {
         sum=0;
-        for(int j=0;j<n;j++)
+        for(int i=0;i<n;i++)
         {
             sum=sum+A[i][j];
         }
-        cout<<"sum of coloumn "<<i+1<<" is:"<<sum<<endl;
+        cout<<"sum of coloumn "<<j+1<<" is:"<<sum<<endl;
     }
 
     
