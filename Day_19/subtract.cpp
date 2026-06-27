@@ -9,7 +9,7 @@ int main()
     cin>>n;
     int A[m][n];
     int B[m][n];
-    int sum[m][n];
+    int sub[m][n];
 
     for(int i=0;i<m;i++)
     {
@@ -31,14 +31,14 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            sum[i][j]=A[i][j]-B[i][j];
+            sub[i][j]=A[i][j]-B[i][j];
         }
     }
     for(int i=0;i<m;i++)
     {
         for(int j=0;j<n;j++)
         {
-            cout<<sum[i][j]<<" ";
+            cout<<sub[i][j]<<" ";
         }
         cout<<endl;
     }
