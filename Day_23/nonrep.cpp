@@ -28,7 +28,7 @@ int main()
     if (!Q.empty()) {
         cout << Q.front() << endl;
     } else {
-        cout << -1 << endl; // Prints -1 if no unique character exists
+        cout << -1 << endl;
     }
     return 0;
 
