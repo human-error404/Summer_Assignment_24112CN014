@@ -28,7 +28,7 @@ int main()
 
     if(found)
     {
-        cout<<"The first repeating character is:"<<first;
+        cout<<"The first repeating character is:"<<first<<endl;
     }
     else{
         cout<<"no repeating character";
